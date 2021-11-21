@@ -1,0 +1,147 @@
+.footer {
+  background-color: #00122f;
+  color: #fff;
+  padding-top: 57px;
+  margin-top: 54px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-nav__item,
+.footer-about__list,
+.footer-social__item,
+.footer-contacts__item {
+  list-style-type: none;
+}
+
+.footer-nav {
+  width: 33%;
+}
+
+.footer-nav__list {
+  width: 263px;
+  column-count: 2;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav__item {
+  width: 135px;
+  margin-bottom: 12px;
+}
+
+.footer-nav__link:hover,
+.footer-about__link:hover {
+  color: #ccc;
+}
+
+.footer-about {
+  width: 33%;
+
+  padding-top: 5px;
+  padding-left: 48px;
+}
+
+.footer-about__logo {
+  margin-bottom: 15px;
+}
+
+.footer-about__list {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-about__item {
+  margin-bottom: 12px;
+}
+
+.footer-social__list {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.footer-social__item {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.footer-social__item:last-child {
+  margin-right: 0;
+}
+
+.vkontakte,
+.facebook,
+.twitter,
+.instagram {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.vkontakte {
+  background-image: url("../img/vk.png");
+}
+
+.facebook {
+  background-image: url("../img/fb.png");
+}
+
+.twitter {
+  background-image: url("../img/tw.png");
+}
+
+.instagram {
+  background-image: url("../img/inst.png");
+}
+
+.footer-contacts__list {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-contacts__item {
+  font-style: normal;
+  margin-bottom: 22px;
+}
+
+.footer-contacts__item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-contacts__phone,
+.footer-contacts__mail {
+  font-size: 18px;
+  width: 15px;
+  height: 15px;
+
+  background-position: left center;
+  background-repeat: no-repeat;
+
+  padding-left: 34px;
+}
+
+.footer-contacts__phone {
+  background-image: url("../img/call-answer.png");
+}
+
+.footer-contacts__mail {
+  background-image: url("../img/envelope.png");
+}
+
+.all-rights {
+  font-size: 14px;
+  text-align: center;
+
+  margin-top: 44px;
+  margin-bottom: 0;
+  padding: 16px 0;
+
+  color: #7f848d;
+  background-color: #00122f;
+  border-top: 1px solid #26354e;
+}

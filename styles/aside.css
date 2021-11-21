@@ -1,0 +1,14 @@
+/* Правая колонка */
+
+.widget {
+  width: 25%;
+}
+
+.widget__link {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.widget__link:last-child {
+  margin-bottom: 0;
+}

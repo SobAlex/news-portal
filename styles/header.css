@@ -1,0 +1,206 @@
+.main-header {
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+
+.main-header:after {
+	content: "";
+	display: block;
+	position: absolute;
+
+	width: 100%;
+	height: 20px;
+	background-color: #ffffff;
+	box-shadow: 0 7px 7px 0 rgba(50, 50, 50, 0.1);
+	z-index: 99;
+}
+
+/* Header bar */
+
+.main-header__bar {
+	background-color: #00122f;
+	color: #fff;
+
+	padding: 17px 0;
+}
+
+.header-bar-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-header__title,
+.main-header__time {
+	font-size: 15px;
+	letter-spacing: 0.2px;
+	font-weight: normal;
+
+	margin: 0;
+}
+
+.main-header__title-link {
+	text-decoration: underline;
+}
+
+.main-header__title-link:hover {
+	color: #d1d1d1;
+}
+
+/* Header info */
+
+.header-info-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+	padding-top: 40px;
+}
+
+.main-header__logo-box {
+	width: 15%;
+}
+
+.header-info__logo {
+	margin-right: 42px;
+}
+
+.main-header__info-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 47%;
+}
+
+.header-info__city {
+	background-image: url("../img/down-arrow.png");
+	background-position: right;
+	background-repeat: no-repeat;
+
+	margin-right: 30px;
+}
+
+.city {
+	border-bottom: 1px dashed #448ccb;
+	color: #448ccb;
+
+	padding-bottom: 3px;
+	margin-right: 17px;
+}
+
+.header-info__date {
+	margin-right: 10px;
+	color: #91919f;
+}
+
+.header-info__time {
+	background-image: url("../img/clock.png");
+	background-position: left 100%;
+	background-repeat: no-repeat;
+
+	padding-left: 25px;
+	margin-left: 25px;
+}
+
+.header-info__temperature {
+	background-image: url("../img/cloudy.png");
+	background-position: left 100%;
+	background-repeat: no-repeat;
+	color: #91919f;
+
+	padding-left: 38px;
+	margin-right: 18px;
+}
+
+.header-form {
+	width: 320px;
+	height: 45px;
+
+	background-color: #f3f3f3;
+	border-radius: 20px;
+	border: none;
+
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.header-form__form {
+	display: flex;
+	align-items: center;
+}
+
+.header-form__search {
+	width: 259px;
+	height: 45px;
+	font-size: 14px;
+
+	background-color: #f3f3f3;
+
+	border: none;
+}
+
+.header-form__btn {
+	width: 16px;
+	height: 16px;
+
+	background-image: url("../img/search.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #f3f3f3;
+
+	padding: 0;
+
+	border: none;
+	cursor: pointer;
+}
+
+.header-form__btn-close {
+	position: absolute;
+	right: -50px;
+	display: none;
+
+	background-color: transparent;
+
+	border: none;
+	cursor: pointer;
+}
+
+/* Главная навигация */
+
+.main-header__nav-box {
+	margin-top: 25px;
+}
+
+.main-nav__list {
+	padding: 0;
+	margin: 0;
+}
+
+.main-nav__item {
+	position: relative;
+	display: inline-block;
+
+	padding: 10px 35px 10px 0;
+	list-style-type: none;
+}
+
+.main-nav__item:after {
+	position: absolute;
+	right: 12px;
+
+	content: "/";
+	color: #e1e1e5;
+}
+
+.main-nav__item:last-child:after {
+	content: "";
+}
+
+.main-nav__link:hover,
+.header-info__city:hover {
+	color: #757474
+}
+
+.mobile-menu {
+	display: none;
+}
