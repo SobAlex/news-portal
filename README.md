@@ -1,1 +1,1 @@
-"news-portal" - учебный проект от академии SkillBox
+"news-portal" - Верстка. Учебный проект от академии SkillBox.
